@@ -12,7 +12,7 @@ def nyc_pigeon_organizer(data)
         if !final_array[names][key]
             final_array[names][key] = []
         end
-        binding.pry
+
         final_array[names][key].push(inner_key.to_s)
       end
     end   
